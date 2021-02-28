@@ -1,0 +1,110 @@
+.inline-block {
+    display: inline;
+    vertical-align: top;
+    margin-top: 50px;
+}
+
+.logoimg {
+    width: 200px;
+    padding: 1%;
+    text-align: center;
+}
+nav {
+    width: 73%;
+    padding: 1%;
+    margin-top: 5%;
+}
+
+.menu {
+    width: 50%;
+    margin-left: auto;
+    vertical-align: top;
+    display: inline;
+    margin-top: 5%;
+}
+
+li {
+    display: inline;
+    padding: 0 10px;
+}
+
+.heroimg {
+    padding: 25px;
+}
+
+.portrait {
+    max-width: 300px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #373738;
+    padding: 0 auto;
+    vertical-align: bottom;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 0 auto;
+}
+
+/* UX skills section */
+
+.flexcontainer {
+    display: flex;
+}
+
+.skill {
+    width: 33%;
+    padding: 2%;
+    flex-flow: wrap;
+}
+
+.flexcontainer .icon {
+    max-width: 200px;
+}
+
+/* Work section */
+
+.workgrid {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.workgrid div {
+    width: 80%;
+    padding: 2%;
+    flex-direction: column;
+}
+
+.project {
+    flex-direction: column;
+    width: 80%;
+}
+
+.child {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.child img {
+    max-width: 60%;
+}
+
+button {
+    max-width: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+    .flexcontainer {
+        flex-direction: column;
+    }
+
+}
